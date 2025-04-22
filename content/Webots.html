@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Robotics.html'>Robotics</a><li><a href='Webots.html'>Webots</a><li><a href='Brython.html'>Brython</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='CAD.html'>CAD</a><ul class='dropdown'><li><a href='Solvespace.html'>Solvespace</a><li><a href='NX.html'>NX</a><li><a href='OnShape.html'>OnShape</a></li></ul><li><a href='Robotics.html'>Robotics</a><li><a href='Webots.html'>Webots</a><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -143,10 +143,10 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">Robotics << <a href='Robotics.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython<br /><h1>Webots</h1>
+<p><a href="https://cyberbotics.com/">https://cyberbotics.com/</a> </p>
 <div class="markdown-body MarkdownRenderer-module__container--wIGWk" data-copilot-markdown="true" style="--markdownrenderer_streaming-fade-duration: 750ms;">
 <p><span node="[object Object]">在 Webots 模擬器中，</span><strong><span node="[object Object]">模擬器的時間步長</span></strong><span node="[object Object]">與</span><strong><span node="[object Object]">世界的時間步長</span></strong><span node="[object Object]">是模擬運行的兩個重要概念，分別表示模擬器和模擬世界在離散物理計算中的時間間隔。以下是詳細說明：</span></p>
-<hr/>
-<br/><span node="[object Object]">1. </span><strong><span node="[object Object]">模擬器的時間步長（Simulator </span><span node="[object Object]">Time </span><span node="[object Object]">Step）</span></strong>
+<hr/><br/><span node="[object Object]">1. </span><strong><span node="[object Object]">模擬器的時間步長（Simulator </span><span node="[object Object]">Time </span><span node="[object Object]">Step）</span></strong>
 <ul>
 <li><strong><span node="[object Object]">定義</span></strong><span node="[object Object]">：模擬器內部用於計算物理模擬的時間間隔。它決定了模擬器每次更新物理場景時所模擬的時間量。</span></li>
 <li><strong><span node="[object Object]">作用</span></strong><span node="[object Object]">：</span>
@@ -163,8 +163,7 @@ img.add_border {
 </ul>
 </li>
 </ul>
-<hr/>
-<br/><span node="[object Object]">2. </span><strong><span node="[object Object]">世界的時間步長（World </span><span node="[object Object]">Time </span><span node="[object Object]">Step）</span></strong>
+<hr/><br/><span node="[object Object]">2. </span><strong><span node="[object Object]">世界的時間步長（World </span><span node="[object Object]">Time </span><span node="[object Object]">Step）</span></strong>
 <ul>
 <li><strong><span node="[object Object]">定義</span></strong><span node="[object Object]">：模擬世界中用於更新場景的固定時間間隔，主要由 Webots 的場景樹（Scene </span><span node="[object Object]">Tree）中的 </span><code node="[object Object]"><span node="[object Object]">WorldInfo </span><span node="[object Object]">&gt; </span><span node="[object Object]">basicTimeStep</span></code> <span node="[object Object]">參數定義。</span></li>
 <li><strong><span node="[object Object]">作用</span></strong><span node="[object Object]">：</span>
@@ -181,8 +180,7 @@ img.add_border {
 </ul>
 </li>
 </ul>
-<hr/>
-<br/><span node="[object Object]">3. </span><strong><span node="[object Object]">兩者的關係</span></strong>
+<hr/><br/><span node="[object Object]">3. </span><strong><span node="[object Object]">兩者的關係</span></strong>
 <ul>
 <li><strong><span node="[object Object]">模擬器的時間步長</span></strong><span node="[object Object]">應該</span><strong><span node="[object Object]">小於或等於</span></strong><span node="[object Object]">世界的時間步長。</span>
 <ul>
@@ -197,8 +195,7 @@ img.add_border {
 </ul>
 </li>
 </ul>
-<hr/>
-<br/><span node="[object Object]">4. </span><strong><span node="[object Object]">實際應用場景</span></strong>
+<hr/><br/><span node="[object Object]">4. </span><strong><span node="[object Object]">實際應用場景</span></strong>
 <ul>
 <li><strong><span node="[object Object]">模擬器的時間步長</span></strong><span node="[object Object]">：</span>
 <ul>
@@ -244,7 +241,8 @@ img.add_border {
 </tr>
 </tbody>
 </table>
-<p><span node="[object Object]">透過合理設置這兩個參數，可以在模擬的精度與性能之間達到平衡。</span></p><br />Robotics << <a href='Robotics.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
+<p><span node="[object Object]">透過合理設置這兩個參數，可以在模擬的精度與性能之間達到平衡。</span></p>
+</div><br />Robotics << <a href='Robotics.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
         
     <!-- footer -->
       <div class="container">
